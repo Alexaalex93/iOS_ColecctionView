@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		09FEA7F51E2F784900D73CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA7F41E2F784900D73CAD /* AppDelegate.swift */; };
-		09FEA7F71E2F784900D73CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA7F61E2F784900D73CAD /* ViewController.swift */; };
 		09FEA7FA1E2F784900D73CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FEA7F81E2F784900D73CAD /* Main.storyboard */; };
 		09FEA7FC1E2F784900D73CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FEA7FB1E2F784900D73CAD /* Assets.xcassets */; };
 		09FEA7FF1E2F784900D73CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FEA7FD1E2F784900D73CAD /* LaunchScreen.storyboard */; };
 		09FEA80A1E2F784900D73CAD /* CarasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA8091E2F784900D73CAD /* CarasTests.swift */; };
 		09FEA8151E2F784900D73CAD /* CarasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA8141E2F784900D73CAD /* CarasUITests.swift */; };
+		09FEA8231E2F78EE00D73CAD /* MainCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA8221E2F78EE00D73CAD /* MainCollectionViewController.swift */; };
+		09FEA8251E2F7A0E00D73CAD /* PersonaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA8241E2F7A0E00D73CAD /* PersonaCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,6 @@
 /* Begin PBXFileReference section */
 		09FEA7F11E2F784900D73CAD /* Caras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FEA7F41E2F784900D73CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		09FEA7F61E2F784900D73CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		09FEA7F91E2F784900D73CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09FEA7FB1E2F784900D73CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09FEA7FE1E2F784900D73CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		09FEA8101E2F784900D73CAD /* CarasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FEA8141E2F784900D73CAD /* CarasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarasUITests.swift; sourceTree = "<group>"; };
 		09FEA8161E2F784900D73CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FEA8221E2F78EE00D73CAD /* MainCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCollectionViewController.swift; sourceTree = "<group>"; };
+		09FEA8241E2F7A0E00D73CAD /* PersonaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonaCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				09FEA7F41E2F784900D73CAD /* AppDelegate.swift */,
-				09FEA7F61E2F784900D73CAD /* ViewController.swift */,
 				09FEA7F81E2F784900D73CAD /* Main.storyboard */,
+				09FEA8241E2F7A0E00D73CAD /* PersonaCollectionViewCell.swift */,
+				09FEA8221E2F78EE00D73CAD /* MainCollectionViewController.swift */,
 				09FEA7FB1E2F784900D73CAD /* Assets.xcassets */,
 				09FEA7FD1E2F784900D73CAD /* LaunchScreen.storyboard */,
 				09FEA8001E2F784900D73CAD /* Info.plist */,
@@ -259,8 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09FEA7F71E2F784900D73CAD /* ViewController.swift in Sources */,
 				09FEA7F51E2F784900D73CAD /* AppDelegate.swift in Sources */,
+				09FEA8251E2F7A0E00D73CAD /* PersonaCollectionViewCell.swift in Sources */,
+				09FEA8231E2F78EE00D73CAD /* MainCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
