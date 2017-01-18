@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09FEA7F51E2F784900D73CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA7F41E2F784900D73CAD /* AppDelegate.swift */; };
+		09FEA7F71E2F784900D73CAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA7F61E2F784900D73CAD /* ViewController.swift */; };
+		09FEA7FA1E2F784900D73CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FEA7F81E2F784900D73CAD /* Main.storyboard */; };
+		09FEA7FC1E2F784900D73CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FEA7FB1E2F784900D73CAD /* Assets.xcassets */; };
+		09FEA7FF1E2F784900D73CAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FEA7FD1E2F784900D73CAD /* LaunchScreen.storyboard */; };
+		09FEA80A1E2F784900D73CAD /* CarasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA8091E2F784900D73CAD /* CarasTests.swift */; };
+		09FEA8151E2F784900D73CAD /* CarasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA8141E2F784900D73CAD /* CarasUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09FEA8061E2F784900D73CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09FEA7E91E2F784900D73CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FEA7F01E2F784900D73CAD;
+			remoteInfo = Caras;
+		};
+		09FEA8111E2F784900D73CAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09FEA7E91E2F784900D73CAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09FEA7F01E2F784900D73CAD;
+			remoteInfo = Caras;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09FEA7F11E2F784900D73CAD /* Caras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caras.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FEA7F41E2F784900D73CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		09FEA7F61E2F784900D73CAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		09FEA7F91E2F784900D73CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		09FEA7FB1E2F784900D73CAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		09FEA7FE1E2F784900D73CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		09FEA8001E2F784900D73CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FEA8051E2F784900D73CAD /* CarasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FEA8091E2F784900D73CAD /* CarasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarasTests.swift; sourceTree = "<group>"; };
+		09FEA80B1E2F784900D73CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09FEA8101E2F784900D73CAD /* CarasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09FEA8141E2F784900D73CAD /* CarasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarasUITests.swift; sourceTree = "<group>"; };
+		09FEA8161E2F784900D73CAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09FEA7EE1E2F784900D73CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEA8021E2F784900D73CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEA80D1E2F784900D73CAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09FEA7E81E2F784900D73CAD = {
+			isa = PBXGroup;
+			children = (
+				09FEA7F31E2F784900D73CAD /* Caras */,
+				09FEA8081E2F784900D73CAD /* CarasTests */,
+				09FEA8131E2F784900D73CAD /* CarasUITests */,
+				09FEA7F21E2F784900D73CAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09FEA7F21E2F784900D73CAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09FEA7F11E2F784900D73CAD /* Caras.app */,
+				09FEA8051E2F784900D73CAD /* CarasTests.xctest */,
+				09FEA8101E2F784900D73CAD /* CarasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09FEA7F31E2F784900D73CAD /* Caras */ = {
+			isa = PBXGroup;
+			children = (
+				09FEA7F41E2F784900D73CAD /* AppDelegate.swift */,
+				09FEA7F61E2F784900D73CAD /* ViewController.swift */,
+				09FEA7F81E2F784900D73CAD /* Main.storyboard */,
+				09FEA7FB1E2F784900D73CAD /* Assets.xcassets */,
+				09FEA7FD1E2F784900D73CAD /* LaunchScreen.storyboard */,
+				09FEA8001E2F784900D73CAD /* Info.plist */,
+			);
+			path = Caras;
+			sourceTree = "<group>";
+		};
+		09FEA8081E2F784900D73CAD /* CarasTests */ = {
+			isa = PBXGroup;
+			children = (
+				09FEA8091E2F784900D73CAD /* CarasTests.swift */,
+				09FEA80B1E2F784900D73CAD /* Info.plist */,
+			);
+			path = CarasTests;
+			sourceTree = "<group>";
+		};
+		09FEA8131E2F784900D73CAD /* CarasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				09FEA8141E2F784900D73CAD /* CarasUITests.swift */,
+				09FEA8161E2F784900D73CAD /* Info.plist */,
+			);
+			path = CarasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09FEA7F01E2F784900D73CAD /* Caras */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FEA8191E2F784900D73CAD /* Build configuration list for PBXNativeTarget "Caras" */;
+			buildPhases = (
+				09FEA7ED1E2F784900D73CAD /* Sources */,
+				09FEA7EE1E2F784900D73CAD /* Frameworks */,
+				09FEA7EF1E2F784900D73CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Caras;
+			productName = Caras;
+			productReference = 09FEA7F11E2F784900D73CAD /* Caras.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09FEA8041E2F784900D73CAD /* CarasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FEA81C1E2F784900D73CAD /* Build configuration list for PBXNativeTarget "CarasTests" */;
+			buildPhases = (
+				09FEA8011E2F784900D73CAD /* Sources */,
+				09FEA8021E2F784900D73CAD /* Frameworks */,
+				09FEA8031E2F784900D73CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09FEA8071E2F784900D73CAD /* PBXTargetDependency */,
+			);
+			name = CarasTests;
+			productName = CarasTests;
+			productReference = 09FEA8051E2F784900D73CAD /* CarasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		09FEA80F1E2F784900D73CAD /* CarasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09FEA81F1E2F784900D73CAD /* Build configuration list for PBXNativeTarget "CarasUITests" */;
+			buildPhases = (
+				09FEA80C1E2F784900D73CAD /* Sources */,
+				09FEA80D1E2F784900D73CAD /* Frameworks */,
+				09FEA80E1E2F784900D73CAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09FEA8121E2F784900D73CAD /* PBXTargetDependency */,
+			);
+			name = CarasUITests;
+			productName = CarasUITests;
+			productReference = 09FEA8101E2F784900D73CAD /* CarasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09FEA7E91E2F784900D73CAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = cice;
+				TargetAttributes = {
+					09FEA7F01E2F784900D73CAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					09FEA8041E2F784900D73CAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09FEA7F01E2F784900D73CAD;
+					};
+					09FEA80F1E2F784900D73CAD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 09FEA7F01E2F784900D73CAD;
+					};
+				};
+			};
+			buildConfigurationList = 09FEA7EC1E2F784900D73CAD /* Build configuration list for PBXProject "Caras" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09FEA7E81E2F784900D73CAD;
+			productRefGroup = 09FEA7F21E2F784900D73CAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09FEA7F01E2F784900D73CAD /* Caras */,
+				09FEA8041E2F784900D73CAD /* CarasTests */,
+				09FEA80F1E2F784900D73CAD /* CarasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09FEA7EF1E2F784900D73CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEA7FF1E2F784900D73CAD /* LaunchScreen.storyboard in Resources */,
+				09FEA7FC1E2F784900D73CAD /* Assets.xcassets in Resources */,
+				09FEA7FA1E2F784900D73CAD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEA8031E2F784900D73CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEA80E1E2F784900D73CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09FEA7ED1E2F784900D73CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEA7F71E2F784900D73CAD /* ViewController.swift in Sources */,
+				09FEA7F51E2F784900D73CAD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEA8011E2F784900D73CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEA80A1E2F784900D73CAD /* CarasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09FEA80C1E2F784900D73CAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09FEA8151E2F784900D73CAD /* CarasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09FEA8071E2F784900D73CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09FEA7F01E2F784900D73CAD /* Caras */;
+			targetProxy = 09FEA8061E2F784900D73CAD /* PBXContainerItemProxy */;
+		};
+		09FEA8121E2F784900D73CAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09FEA7F01E2F784900D73CAD /* Caras */;
+			targetProxy = 09FEA8111E2F784900D73CAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09FEA7F81E2F784900D73CAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FEA7F91E2F784900D73CAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		09FEA7FD1E2F784900D73CAD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09FEA7FE1E2F784900D73CAD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09FEA8171E2F784900D73CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		09FEA8181E2F784900D73CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09FEA81A1E2F784900D73CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.Caras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		09FEA81B1E2F784900D73CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Caras/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.Caras;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		09FEA81D1E2F784900D73CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.CarasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caras.app/Caras";
+			};
+			name = Debug;
+		};
+		09FEA81E1E2F784900D73CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CarasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.CarasTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Caras.app/Caras";
+			};
+			name = Release;
+		};
+		09FEA8201E2F784900D73CAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.CarasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Caras;
+			};
+			name = Debug;
+		};
+		09FEA8211E2F784900D73CAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = CarasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alex.CarasUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Caras;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09FEA7EC1E2F784900D73CAD /* Build configuration list for PBXProject "Caras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FEA8171E2F784900D73CAD /* Debug */,
+				09FEA8181E2F784900D73CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09FEA8191E2F784900D73CAD /* Build configuration list for PBXNativeTarget "Caras" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FEA81A1E2F784900D73CAD /* Debug */,
+				09FEA81B1E2F784900D73CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09FEA81C1E2F784900D73CAD /* Build configuration list for PBXNativeTarget "CarasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FEA81D1E2F784900D73CAD /* Debug */,
+				09FEA81E1E2F784900D73CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09FEA81F1E2F784900D73CAD /* Build configuration list for PBXNativeTarget "CarasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09FEA8201E2F784900D73CAD /* Debug */,
+				09FEA8211E2F784900D73CAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09FEA7E91E2F784900D73CAD /* Project object */;
+}
