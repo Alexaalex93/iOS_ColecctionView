@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		096E279A1E35FFA400DBDB6D /* Persona.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096E27991E35FFA400DBDB6D /* Persona.swift */; };
 		09FEA7F51E2F784900D73CAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FEA7F41E2F784900D73CAD /* AppDelegate.swift */; };
 		09FEA7FA1E2F784900D73CAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09FEA7F81E2F784900D73CAD /* Main.storyboard */; };
 		09FEA7FC1E2F784900D73CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FEA7FB1E2F784900D73CAD /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		096E27991E35FFA400DBDB6D /* Persona.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persona.swift; sourceTree = "<group>"; };
 		09FEA7F11E2F784900D73CAD /* Caras.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Caras.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FEA7F41E2F784900D73CAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09FEA7F91E2F784900D73CAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				09FEA7F41E2F784900D73CAD /* AppDelegate.swift */,
+				096E27991E35FFA400DBDB6D /* Persona.swift */,
 				09FEA7F81E2F784900D73CAD /* Main.storyboard */,
 				09FEA8241E2F7A0E00D73CAD /* PersonaCollectionViewCell.swift */,
 				09FEA8221E2F78EE00D73CAD /* MainCollectionViewController.swift */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096E279A1E35FFA400DBDB6D /* Persona.swift in Sources */,
 				09FEA7F51E2F784900D73CAD /* AppDelegate.swift in Sources */,
 				09FEA8251E2F7A0E00D73CAD /* PersonaCollectionViewCell.swift in Sources */,
 				09FEA8231E2F78EE00D73CAD /* MainCollectionViewController.swift in Sources */,
@@ -509,6 +513,7 @@
 				09FEA81B1E2F784900D73CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09FEA81C1E2F784900D73CAD /* Build configuration list for PBXNativeTarget "CarasTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +522,7 @@
 				09FEA81E1E2F784900D73CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09FEA81F1E2F784900D73CAD /* Build configuration list for PBXNativeTarget "CarasUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +531,7 @@
 				09FEA8211E2F784900D73CAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
