@@ -10,7 +10,7 @@ import UIKit
 
 private let reuseIdentifier = "Cell"
 
-//UserDefaults (Para hacer la aplicacion persistente. Se recomienda no guardar mas de un MegaByte de datos
+//UserDefaults (Para hacer la aplicacion persistente. Se recomienda no guardar mas de un MegaByte de datos	
     //Bool, Floar, Double, ...
 
 class MainCollectionViewController: UICollectionViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
@@ -27,7 +27,10 @@ class MainCollectionViewController: UICollectionViewController, UIImagePickerCon
         navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addPersona))
         // Register cell classes
         self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-
+        let defaults = UserDefaults.standard
+        if let genteGuardada = defaults.object(forKey: "gente") as? Data{
+            gente = NSKeyedUnarchiver.unarchiveObject(with: genteGuardada) as! [Persona]
+        }
         // Do any additional setup after loading the view.
     }
     
@@ -113,6 +116,8 @@ class MainCollectionViewController: UICollectionViewController, UIImagePickerCon
         let persona = Persona(nombre: "Persona", imagen: imageName) //Le damos un nombre para poder acceder a el
         gente.append(persona)
         collectionView?.reloadData()
+        self.guardar()
+
         
         dismiss(animated: true)
     }
@@ -138,10 +143,21 @@ class MainCollectionViewController: UICollectionViewController, UIImagePickerCon
         ac.addAction(UIAlertAction(title: "Ok", style: .default) { _ in
             let nuevoNombre = ac.textFields![0]
             persona._nombre = nuevoNombre.text!
+            self.guardar()
             self.collectionView?.reloadData()
         
         })
         present(ac, animated: true)
+    }
+    
+    func guardar(){
+        
+        //Array -> [Persona, Persona, Persona]
+            //Data
+        let dataAGuardar = NSKeyedArchiver.archivedData(withRootObject: gente)
+        let defaults = UserDefaults.standard
+        defaults.setValue(dataAGuardar, forKey: "gente")
+        
     }
 
     // MARK: UICollectionViewDelegate

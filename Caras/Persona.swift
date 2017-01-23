@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Persona: NSObject {
+class Persona: NSObject, NSCoding {
     
     var _nombre: String
     var _imagen: String
@@ -19,5 +19,16 @@ class Persona: NSObject {
         self._imagen = imagen
     
     }
-
+    
+    required init(coder aDecoder: NSCoder){ //Requerido para hacerlo tipo NSCoding
+    
+        _nombre = aDecoder.decodeObject(forKey: "nombre") as! String
+        _imagen = aDecoder.decodeObject(forKey: "imagen") as! String
+    
+    }
+    
+    func encode(with aCoder: NSCoder) {
+        aCoder.encode(_nombre, forKey: "nombre")
+        aCoder.encode(_imagen, forKey: "imagen")
+    }
 }
